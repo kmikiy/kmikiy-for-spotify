@@ -15,8 +15,7 @@ var cookieParser = require('cookie-parser');
 var client_id = process.env.ClientId; // Your client id
 var client_secret = process.env.ClientSecret; // Your secret
 var redirect_uri = process.env.RedirectUri; // Your redirect uri
-//var port = process.env.PORT || 8888;
-var port = 80;
+var port = process.env.PORT || 8888;
 console.log(client_id);
 console.log(client_secret);
 
